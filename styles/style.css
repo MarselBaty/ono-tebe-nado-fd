@@ -1,1 +1,102 @@
-/* место для вашего кода */
+.content-section {
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 92px 50px 96px;
+}
+
+.header__menu-list {
+    display: flex;
+    gap: 13px;
+    list-style: none;
+}
+
+.header__menu-link {
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.header__menu-item_active .header__menu-link {
+    text-decoration: none;
+}
+
+.header__logo {
+    display: block;
+    width: 148px;
+    height: 105px;
+}
+
+.header__logo-image {
+
+    width: 100%;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 240px;
+    font-size: 20px;
+}
+
+.cover {
+    background-image:url(../images/cover.svg) ;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 95% auto;
+    padding: 7px 24px 32px 20px;
+}
+
+.cover-title {
+
+}
+
+.description {
+
+}
+
+.lots {
+
+}
+
+.lots-title {
+
+}
+
+.lots__menu-list {
+
+}
+
+.lots__menu-link {
+
+}
+
+.about {
+
+}
+
+.about__image-container {
+
+}
+
+.text-container{
+
+}
+
+.footer__links {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+.footer__links a {
+    color: #000000;
+    font-size: 14px;
+    line-height: 1.25;
+    text-decoration: none;
+}

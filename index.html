@@ -10,8 +10,8 @@
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
-    <header class="header">
-      <nav>
+    <header class="header content-section">
+      <nav class="header__menu">
         <ul class="header__menu-list">
           <li class="header__menu-item header__menu-item_active">
               <a class="header__menu-link" href="#0">главная</a>
@@ -20,62 +20,75 @@
               <a class="header__menu-link" href="#0">посмотреть лоты</a>
           </li>
           <li>
-              <a class="header__menu-link" href="#0">о нас</a>
+              <a class="header__menu-link" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <a></a>
-      <address></address>
+      <a class="header__logo">
+        <img class="header__logo-image" src="./images/logo-black.svg" alt="Логотип проекта"/>
+      </a>
+      <address class="address">
+        <p>+9 999 555 5555</p>
+        <a>info@sobaka.ge</a>
+        <p>наб. Принсенграхт 263- 265, Амстердам</p>
+      </address>
     </header>
     <main>
-      <section class="cover">
-        <h1></h1>
-        <div class=".description">
+      <section class="cover content-section">
+        <h1 class="cover-title"></h1>
+        <div class="description">
           <p></p>
           <button></button>
         </div>
       </section>
-      <section class="lots">
-        <h1>
-          <ul>
+      <section class="lots content-section">
+        <h1 class="lots-title"></h1>
+          <ul class="lots__menu-list">
             <li>
-              <a>
-                <article></article>
+              <a class="lots__menu-link">
+                <article class="text-container"></article>
               </a>
             </li>
             <li>
-              <a>
-                <article></article>
+              <a class="lots__menu-link">
+                <article class="text-container"></article>
               </a>
             </li>
             <li>
-              <a>
-                <article></article>
+              <a class="lots__menu-link">
+                <article class="text-container"></article>
               </a>
             </li>
           </ul>
-        </h1>
       </section>
-      <section class="about">
-        
+      <section class="about content-section">
+        <figure class="about__image-container">
+          <img 
+            src="./images/logo-white.svg"
+            alt="Лого секции about"
+          >
+        </figure>
+        <article class="text-container">
+
+        </article>
       </section>
     </main>
-    <footer>
+    <footer class="footer content-section">
       <address></address>
       <nav>
-        <ul class="header__menu-list">
-          <li class="header__menu-item header__menu-item_active">
-              <a class="header__menu-link" href="#0">Главная</a>
+        <ul class="footer__menu-list">
+          <li class="footer header__menu-item_active">
+              <a class="footer__menu-link" href="#0">Главная</a>
           </li>
           <li>
-              <a class="header__menu-link" href="#0">посмотреть лоты</a>
+              <a class="footer__menu-link" href="#0">посмотреть лоты</a>
           </li>
           <li>
-              <a class="header__menu-link" href="#0">о нас</a>
+              <a class="footer__menu-link" href="#0">о нас</a>
           </li>
         </ul>
       </nav>
-      <ul class="footer__links">
+      <ul class="footer-links">
         <li>
             <a href="#">Ютуб</a>
         </li>
@@ -85,6 +98,7 @@
         <li>
           <a href="#">Пинтерест</a>
         </li>
+      </ul>
     </footer>
   </body>
 </html>
