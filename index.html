@@ -16,10 +16,10 @@
           <li class="header__menu-item header__menu-item_active">
               <a class="header__menu-link" href="#0">главная</a>
           </li>
-          <li>
+          <li class="header__menu-item">
               <a class="header__menu-link" href="#0">посмотреть лоты</a>
           </li>
-          <li>
+          <li class="header__menu-item">
               <a class="header__menu-link" href="#0">об аукционе</a>
           </li>
         </ul>
@@ -27,19 +27,24 @@
       <a class="header__logo">
         <img class="header__logo-image" src="./images/logo-black.svg" alt="Логотип проекта"/>
       </a>
-      <address class="address">
-        <p>+9 999 555 5555</p>
-        <a>info@sobaka.ge</a>
+      <address class="header__address">
+        <a class="header__address-link"  href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="header__address-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263- 265, Амстердам</p>
       </address>
     </header>
     <main>
       <section class="cover content-section">
-        <h1 class="cover-title"></h1>
-        <div class="description">
-          <p></p>
-          <button></button>
-        </div>
+        <div class="cover__overlay"></div>
+        <h1 class="cover-title">
+          <span class="accent-span first__word">ОНО</span>
+          <span class="accent-span text-center second__word">ТЕБЕ</span>
+          <span class="accent-span text-right third__word">НАДО</span>
+          </h1>
+          <div class="description">
+            <p class="description__text">Аукцион вещей, в которые никто не верил</p>
+            <button class="description__button">Сделать ставку</button>
+          </div>
       </section>
       <section class="lots content-section">
         <h1 class="lots-title"></h1>
