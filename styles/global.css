@@ -7,10 +7,10 @@
 body {
   max-width: 1100px;
   margin: 0 auto;
+  padding: 0;
   font-family: Raleway, sans-serif;
 }
 
-body,
 h1,
 h2,
 h3,

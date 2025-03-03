@@ -61,6 +61,7 @@ main {
     position: relative;
     padding: 0px 24px 0px 20px;
     margin-bottom: 179px;
+    box-sizing: border-box;
 }
 
 .cover__overlay {
