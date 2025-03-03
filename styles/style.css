@@ -144,6 +144,7 @@ main {
     column-gap: 25px;
     flex-direction: row;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 .lots__card-list-item {
