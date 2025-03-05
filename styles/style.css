@@ -19,7 +19,7 @@
     text-underline-offset: 4px;
 }
 
-.header__menu-item_active {
+.header__links-list-item_no-bullit {
     list-style: none;
 }
 
@@ -70,27 +70,27 @@
 }
 
 .cover-title {
+    position: relative;
     font-size: 100px;
     font-weight: 700;
     line-height: 1.3;
     letter-spacing: 30px;
     padding: 171px 50px 91px;
     color: #fff;
-    min-height: 400px;
     z-index: 1;
     text-transform: uppercase;
 }
 
 .description {
     font-family: 'Raleway', 'serif';
-    min-height: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     font-size: 22px;
     font-weight: 400;
-    padding: 0px 0px 44px 33px;
+    padding: 0px 0px 34px 33px;
+    margin-top: 4px;
     text-transform: uppercase;
     color: #fff;
     word-spacing: 18px;
@@ -262,19 +262,19 @@
 
 .top__word {
     position: relative;
-    bottom: 15px;
+    bottom: 13px;
     right: 20px;
 }
 
 .center__word {
     position: relative;
-    bottom: 10px;
-    left: 18px;
+    bottom: 8px;
+    left: 17px;
 }
 
 .end__word {
     position: relative;
-    bottom: 5px;
+    bottom: 3px;
     left: 54px;
 } 
     
