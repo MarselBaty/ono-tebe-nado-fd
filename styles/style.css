@@ -55,7 +55,7 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    padding: 0px 24px 0px 20px;
+    padding: 0px 21px 0px 20px;
     margin-bottom: 179px;
     box-sizing: border-box;
 }
@@ -105,7 +105,7 @@
     text-transform: uppercase;
     color: #fff;
     border-color: #fff;
-    margin: 0px 26px 0px 0px;
+    margin: 0px 30px 0px 0px;
     padding: 12px 32px 11px 31px;
     position: relative;
     z-index: 1;
@@ -247,7 +247,7 @@
 }
 
 .accent-span {
-    display: flex;
+    display: block;
 }
 
 .aligned-text {
@@ -255,14 +255,16 @@
 }
 
 .aligned-text_center {
+    text-align: center;
+    margin-right: -30px;
     margin-top: 5px;
-    margin-left: 359px;
 }
 
 .aligned-text_right {
-    padding-left: 643px;
-    padding-top: 5px;
+    text-align: right;
+    margin-top: 5px;
 }
+/* Всё исправил спасибо за замечания, но это уже 6-я попытка сдать проектную не хочу падать на когорту ниже. Спасибо и хорошего вечера) */
     
 .footer {
     display: grid;
